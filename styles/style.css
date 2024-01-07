@@ -63,6 +63,23 @@
   margin-right: 230px;
 }
 
+.latest-container {
+  width: 75%;
+  background-image: url("../images/rectangle 9.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: contain;
+  margin: 0 auto;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  height: 469px;
+  padding: 70px 0px;
+}
+
 /* header style start */
 header {
   background-color: #e554731a;
@@ -244,4 +261,28 @@ header {
 }
 .insta-image img {
   width: 100%;
+}
+
+.latest-text {
+  color: #27272799;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom: 48px;
+}
+
+.latest-form {
+  width: 870px;
+}
+.input {
+  width: 48%;
+  height: 64px;
+  margin-left: 108px;
+  background-color: #fff;
+  padding-left: 5px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  margin-right: 16px;
 }
