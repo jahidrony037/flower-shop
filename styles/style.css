@@ -48,6 +48,14 @@
   margin-right: 230px;
 }
 
+.hot-deal-container {
+  margin-top: 128px;
+  margin-bottom: 128px;
+  width: 100%;
+  border-radius: 8px;
+  background: #e554730d;
+}
+
 /* header style start */
 header {
   background-color: #e554731a;
@@ -84,12 +92,14 @@ header {
   height: 800px;
 }
 
-.banner-btn {
+.banner-btn,
+.hot-deal-btn {
   border-radius: 8px;
   background: #e55473;
   padding: 20px 43px;
   border: none;
   color: #fff;
+  font-size: 20px;
 }
 
 /* features section style */
@@ -170,4 +180,41 @@ header {
 
 .service-name {
   text-align: center;
+}
+
+/* hot deal section style start */
+
+.hot-deal {
+  margin-left: 390px;
+  margin-right: 296px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 180px;
+}
+.hot-deal-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 594px;
+}
+.hot-deal-title {
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+}
+.hot-deal-text {
+  color: #27272799;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 32px;
+  margin-top: 24px;
+}
+.hot-deal-image {
+  margin: 100px 0px;
+}
+.hot-deal-image img {
+  width: 155%;
 }
