@@ -56,6 +56,13 @@
   background: #e554730d;
 }
 
+.insta-container {
+  width: 75%;
+  margin: 0 auto;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
 /* header style start */
 header {
   background-color: #e554731a;
@@ -217,4 +224,24 @@ header {
 }
 .hot-deal-image img {
   width: 155%;
+}
+.insta-text {
+  text-align: center;
+  font-size: 18px;
+  color: #27272799;
+  width: 41.25%;
+  margin: 0 auto;
+  margin-bottom: 48px;
+  margin-top: 24px;
+}
+.insta-images {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 24px;
+}
+.insta-image {
+  width: 23.75%;
+}
+.insta-image img {
+  width: 100%;
 }
