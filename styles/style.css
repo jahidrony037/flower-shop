@@ -39,6 +39,15 @@
   text-align: center;
 }
 
+.service-container {
+  width: 75%;
+  border-radius: 8px;
+  background: #2727270d;
+  margin: 0 auto;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
 /* header style start */
 header {
   background-color: #e554731a;
@@ -137,4 +146,28 @@ header {
   line-height: 35px;
   text-decoration-line: underline;
   margin-top: 32px;
+}
+.services {
+  margin-top: 128px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 86px;
+  margin-bottom: 86px;
+}
+
+.service img {
+  width: 88px;
+  height: 88px;
+  margin-bottom: 24px;
+}
+
+.service-name {
+  text-align: center;
 }
